@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+.main h1{
+    color:beige;
+}
+.main h1 span{
+    font-weight: 600;
+    color:beige;
+}
+.card {
+    background-color: rgb(122, 74, 94);
+    background-blend-mode: luminosity;
+    height: 600px;
+    width: 500px
+
+}
+.card-body {
+    position:relative;
+    overflow: hidden;
+    height: 600px;
+    width: 500px;
+}
+.card-img-bottom{
+    position:absolute;
+    width:500px;
+    height: 600px;
+    top:0px;
+    bottom:0px;
+    right:0px;
+    left:0px;
+}
+.card-img-top{
+    position: absolute;
+    width: auto;
+    height: 600px;
+    right:-50px;
+    bottom:0px;   
+}

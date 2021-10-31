@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+        * {
+        box-sizing: border-box;
+        }
+        .inline-menu>li {
+            display: inline;
+            list-style-type: none;
+            margin-right: 35px;
+        }
+        
+        .navbar {
+            background-color: #abc7df;
+            padding: 15px;
+            border-radius: 10px;
+        }
+        
+        .navbar-link {
+            color: #3c74a8;
+        }
+        
+        body {
+            background-image:url(https://media.istockphoto.com/photos/nature-background-picture-id1271982987?b=1&k=20&m=1271982987&s=170667a&w=0&h=jEoRKqjqx-ruWl73Zwobt2YtaWh6SZIdsU8eMln3kmU=);
+            background-repeat: no-repeat;
+            background-size:cover;
+            max-width: 100rem;
+            margin: auto;
+            font-family: sans-serif;
+        }
+        
+        .foto {
+            margin-left: 35px;
+            margin-right: 35px;
+            width: 25%;
+        }
+        .table {
+            
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse:separate;
+            width: 70%;
+        }
+        .table td,
+        .table th{
+            border: 1px solid #ddd;
+            padding: 10px;
+            padding-right: 240px;
+        }
+        .table tr:nth-child(even){background-color: #6274c4cc;}
+        .table tr:hover{background-color: rgba(230, 230, 250, 0.829);}
+        .table{
+            padding-top: 0px;
+            padding-bottom: 0px;
+            text-align:left;
+            background-color: #9190b3d8;
+            color: white;
+        }
+        .column {
+            float: left;
+            width: 50%;
+            padding: 15px;
+        }
+        .row::after {
+            content: "";
+            display:table;
+            clear: both;
+        }
+    @media screen and (max-width:600px) {
+        .column {
+            width: 100%;
+        }
+    }
+
+        </style>
+
+    </head>
+    <body>
+        <h1 style="text-align:center;margin-bottom: 35px;margin-top:35px;color: rgb(101, 166, 226);">BIODATA</h1>
+
+        <div class="navbar">
+            <ul class="inline-menu">
+                <li style="margin-left: -35px;">
+                    <a class="navbar-link" href="biodata_html+css.html">Home</a>
+                </li>
+                <li>
+                    <a class="navbar-link" href="about.html">About</a>
+                </li>
+                <li>
+                    <a class="navbar-link" href="#">Contact</a>
+            </ul>
+        </div>
+
+        <div class="foto">
+            <img src="foto_aku.jpg" alt="Afifatus Salma-2021"> 
+        </div>
+        <div class="table">
+            <table id="table">
+                <tr>
+                    <th>NAMA</th>
+                    <td>'Afifatus Salma</td>
+                </tr>
+                <tr>
+                    <th>TTL</th>
+                    <td><i>Makassar</i>, 11 November 2000</td>
+                </tr>
+                <tr>
+                    <th>Zodiak</th>
+                    <td>Scorpio</td>
+                </tr>
+            </table>
+        </div>
+    </br>
+        <div class="row" style="background-color:#9190b3d8;">
+            <div class="column" >
+                <h2>Riwayat Pendidikan</h2>
+                <ol style="font-size: 15px;">
+                    <li>Institut TAZKIA (2018-Now)</li>
+                    <li>CCIT-Fakultas Teknik Universitas Indonesia (2020-Now)</li>
+                    <li>SMA Ar-Rohmah Putri <i>"Boarding School"</i> Malang</li>
+                    <li>SMPN 51 Jakarta</li>
+                </ol>
+            </div>
+            <div class="column">
+                <h2>Hobi </h2>
+                    <ul style="font: size 20px;;">
+                        <li><i>Hiking</i></li>
+                        <li><i>Reading</i></li>
+                        <li><i>Culinary</i></li>
+                        <li><i>Photography</i></li>
+                    </ul>
+                
+
+            </div>
+        </div>
+        
+        </body>
+
+    </body>
+</html>
